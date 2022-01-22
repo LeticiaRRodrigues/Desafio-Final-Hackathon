@@ -20,6 +20,6 @@ public class FiltrosSteps {
 
 	@Entao("o sistema apresenta os itens do menor para o maior preco")
 	public void oSistemaApresentaOsItensDoMenorParaOMaiorPreco() {
-	    //APRENDER COMO FAZER PARA MAPEAR
+	    assert(Na(FiltrosPage.class).verificarFiltro());
 	}
 }

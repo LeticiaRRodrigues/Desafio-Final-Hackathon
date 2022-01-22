@@ -16,12 +16,6 @@ public class PreencherCadastroSteps {
 
 	@Dado("que eu estou na aba Checkout")
 	public void queEuEstouNaAbaCheckout() {
-		Na(AdicionarItensPage.class).clicarBotaoAddToCartBackpack();
-		Na(AdicionarItensPage.class).clicarBotaoAddToCartFleece();
-		Na(AdicionarItensPage.class).clicarBotaoAddToCartOnesie();
-		Na(AdicionarItensPage.class).clicarBotaoAddToCartBikeLight();
-		Na(FinalizarComprasPage.class).acessaCarrinho();
-		Na(FinalizarComprasPage.class).clicarNoBotaoCheckout();
 		assertEquals("CHECKOUT: YOUR INFORMATION",driver.findElement(By.xpath("//span[text()='Checkout: Your Information']")).getText());
 	}
 

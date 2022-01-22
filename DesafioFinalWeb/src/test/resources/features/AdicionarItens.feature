@@ -1,8 +1,9 @@
 #language: pt
 #enconding: UTF-8
 
-Funcionalidade: Filtrar 
+Funcionalidade: Selecionar Itens 
 
+@AdicionarItens
 Cenario: Adicionar itens
 Quando eu adicionar o item Backpack
 E eu adicionar o item Fleece

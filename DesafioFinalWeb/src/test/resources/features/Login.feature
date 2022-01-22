@@ -3,7 +3,7 @@
 
 Funcionalidade: Login
 
-
+@Login
 Cenario: Realizar login
 Dado que eu esteja acessando o sitema
 Quando informar o usuario "standard_user"

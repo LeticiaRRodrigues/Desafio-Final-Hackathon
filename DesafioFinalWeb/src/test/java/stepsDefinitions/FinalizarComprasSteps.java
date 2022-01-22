@@ -14,14 +14,6 @@ import pageObjects.FinalizarComprasPage;
 public class FinalizarComprasSteps {
 	
 
-
-	@Dado("^que eu incluo itens no carrinho$")
-	public void incluoItensNoCarrinho() throws Throwable {
-		 Na(AdicionarItensPage.class).clicarBotaoAddToCartBackpack();
-		 Na(AdicionarItensPage.class).clicarBotaoAddToCartFleece();
-		 Na(AdicionarItensPage.class).clicarBotaoAddToCartOnesie();
-		 Na(AdicionarItensPage.class).clicarBotaoAddToCartBikeLight();
-	}
 	
 	@Quando("eu acessar o carrinho")
 	public void euAcessarOCarrinho() {
